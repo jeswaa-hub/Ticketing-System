@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.admin-theme[data-theme='light'] body {
+    background-color: #f8fafc;
+    color: #0f172a;
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-950 {
+    background-color: #f8fafc;
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-950\/80 {
+    background-color: rgba(248, 250, 252, 0.8);
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-950\/50 {
+    background-color: rgba(248, 250, 252, 0.65);
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-950\/40 {
+    background-color: rgba(248, 250, 252, 0.55);
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-900 {
+    background-color: #ffffff;
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-900\/50 {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-900\/60 {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-900\/30 {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-800 {
+    background-color: #e2e8f0;
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-800\/50 {
+    background-color: rgba(226, 232, 240, 0.65);
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-800\/30 {
+    background-color: rgba(226, 232, 240, 0.45);
+}
+
+html.admin-theme[data-theme='light'] .bg-slate-700\/30 {
+    background-color: rgba(226, 232, 240, 0.6);
+}
+
+html.admin-theme[data-theme='light'] .text-slate-100,
+html.admin-theme[data-theme='light'] .text-slate-200 {
+    color: #0f172a;
+}
+
+html.admin-theme[data-theme='light'] .text-slate-300 {
+    color: #334155;
+}
+
+html.admin-theme[data-theme='light'] .text-slate-400 {
+    color: #475569;
+}
+
+html.admin-theme[data-theme='light'] .text-slate-500 {
+    color: #64748b;
+}
+
+html.admin-theme[data-theme='light'] .text-slate-600 {
+    color: #94a3b8;
+}
+
+html.admin-theme[data-theme='light'] .border-slate-800 {
+    border-color: #cbd5e1;
+}
+
+html.admin-theme[data-theme='light'] .border-slate-800\/50 {
+    border-color: rgba(203, 213, 225, 0.65);
+}
+
+html.admin-theme[data-theme='light'] .border-slate-700 {
+    border-color: #cbd5e1;
+}
+
+html.admin-theme[data-theme='light'] .divide-slate-800\/50 > :not([hidden]) ~ :not([hidden]) {
+    border-color: rgba(203, 213, 225, 0.65);
+}
+
+html.admin-theme[data-theme='light'] .admin-theme-create-ticket-btn {
+    background-color: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+}
+
+html.admin-theme[data-theme='light'] .admin-theme-create-ticket-btn:hover {
+    background-color: #f1f5f9;
+}
+
+html.admin-theme[data-theme='dark'] .admin-theme-create-ticket-btn {
+    background-color: #0b1220;
+    color: #f8fafc;
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.5);
+}
+
+html.admin-theme[data-theme='dark'] .admin-theme-create-ticket-btn:hover {
+    background-color: #0f172a;
+}
